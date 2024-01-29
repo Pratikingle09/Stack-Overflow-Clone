@@ -185,7 +185,7 @@ const QuestionDetails = () => {
                         <div>
                           <p>asked {moment(question.askedOn).fromNow()}</p>
                           <Link
-                            to={`Users/${question.userId}`}
+                            to={`/Users/${question.userId}`}
                             className="user-link"
                             style={{ color: "#0086d8" }}
                           >
