@@ -42,7 +42,7 @@ function DisplayAnswers({ question, HandleShare }) {
             <div>
               <p>Answered {moment(ans.answeredOn).fromNow()}</p>
               <Link
-                to={`Users/${ans.userId}`}
+                to={`/Users/${ans.userId}`}
                 className="user-link"
                 style={{ color: "#0086d8" }}
               >
